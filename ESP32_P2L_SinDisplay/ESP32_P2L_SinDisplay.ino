@@ -3,11 +3,11 @@
 #include <Preferences.h>
 
 // Datos de conexión WiFi
-const char* ssid = "MiFibra-112A";
-const char* password = "cJhc3ygH";
+const char* ssid = "TU_SSID";
+const char* password = "TU_PASSWORD";
 
 // Datos del servidor MQTT
-const char* mqttServer = "194.30.15.135";
+const char* mqttServer = "TU_BROKER";
 const int mqttPort = 1883;
 
 WiFiClient espClient;
